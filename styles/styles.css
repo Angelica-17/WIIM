@@ -1,0 +1,106 @@
+body {
+    background-color: #006989;
+    margin: 0;
+}
+
+header {
+    background-color: #0090B8;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-principal {
+    font-size: 50px;
+}
+
+header div {
+    width: 150px;
+}
+
+header div a {
+    text-decoration: none;
+}
+
+header div a h1{
+    margin: 0;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-color: #01A7C2;
+}
+
+#banner {
+    height: 951px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    font-size:30px;
+}
+
+#banner div img {
+    width: 300px;
+}
+
+#planets { 
+    height: 75vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#planets div img {
+    width: 350px;
+}
+
+#gallery {
+    height: 90vh;
+    display: flex; 
+    flex-direction: column; 
+    padding: 0 100px; 
+}
+
+.gallery-box {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.gallery-img img {
+    width: 150px;
+}
+
+.gallery-content {
+    margin-left: 40px;
+}
+
+.gallery-content h3 {
+    font-size: 25px;
+}
+
+.gallery-content p {
+    font-size: 19px;
+}
+
+footer{
+    background-color: yellow;
+}
