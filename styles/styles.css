@@ -101,6 +101,16 @@ main {
     font-size: 19px;
 }
 
+.text-content {
+    margin: 0 200px;
+}
+
 footer{
     background-color: yellow;
+}
+
+footer {
+    background-color: #30424A;
+    color: white;
+
 }
